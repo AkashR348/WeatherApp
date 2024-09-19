@@ -8,7 +8,7 @@ document.getElementById('city').addEventListener("keypress", function(event){
 })
 function getWeather(){
     // OpenWeatherMap api
-    const apiKey = '18416d8bf13e27bc464c872da04a60fa'//deactivated key
+    const apiKey = 'MY-API-KEY'//deactivated key
     const city = document.getElementById('city').value
 
     //make sure a city is entered
