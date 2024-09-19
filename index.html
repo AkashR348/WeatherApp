@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title> Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="weather-container">
+        <h1>Weather App</h1>
+        <!--user inputs the city-->
+        <input type="text" id="city" placeholder="Enter City Name">
+
+        <!--Search button that calls function in the js file-->
+        <button onclick="getWeather()" id="searchButton">Search</button> 
+
+        <!--Layout the information that needs to be shown to user-->
+
+        
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>
+    <!--Connect to javascript file-->
+    <script src="script.js"></script>
+</body>
+</html>
